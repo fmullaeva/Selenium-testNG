@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Param Suite">
+    <parameter name="browser" value="chrome"></parameter>
+    <test name="Param Test">
+
+        <parameter name="star1" value="John"></parameter>
+        <parameter name="star2" value="David"></parameter>
+        <parameter name="toolName" value="selenium"></parameter>
+        <classes>
+            </classes>
+    </test>
+</suite>
